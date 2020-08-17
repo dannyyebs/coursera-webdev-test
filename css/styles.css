@@ -61,24 +61,32 @@ p {
     top: 20px;
 }
 
+/* --------DESKTOP VERSION ------------ */
 @media screen and (min-width:992px){
     section {
+        /* This is to substract the margin from the width of the section */
         width: calc(33.33% - 20px);
     }
 }
 
+
+/* --------TABLET VERSION ------------ */
 @media screen and (min-width:768px) and (max-width:991px){
     .chicken-section, .beef-section{ 
+        /* This is to substract the margin from the width of the section */
         width: calc(50% - 20px);
        
     }
     .sushi-section {
+        /* This is to substract the margin from the width of the section */
         width: calc(100% - 20px);
     }
 }
 
+/* --------MOBILE VERSION ------------ */
 @media screen and (max-width: 767px){
     section{
+        /* This is to substract the margin from the width of the section */
         width: calc(100% - 20px)
     }
 }
